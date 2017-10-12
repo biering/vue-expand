@@ -1,6 +1,6 @@
 {
   "name": "vue-expand",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Light-weight auto expanding textarea as a vue component",
   "author": "“Christoph <chryb.q@gmail.com> (http://www.chryb.me)",
   "license": "MIT",

@@ -46,6 +46,24 @@ export default {
 
 ### Options
 
+|Property|Type|Description|
+|:--:|:--:|:--|
+|`v-model`|`String`|The value bind to the textarea|
+|`min-row`|`Number`|Minimum number of rows which determine the initial textarea height|
+|`placeholder`|`String`|The placeholder of the textarea|
+|`handler`|`Function`|Access event on the textarea|
+
+### Handler Events
+
+Use the handler as following:
+
+```javascript
+this.handler.$emit(event, [callback])
+```
+
+|Name|Description|
+|:--:|:--|
+|`focus`|Focus the textarea|
 
 ## License
 
