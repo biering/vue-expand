@@ -65,6 +65,24 @@ this.handler.$emit(event, [callback])
 |:--:|:--|
 |`focus`|Focus the textarea|
 
+### Styling
+
+To style the textarea add this class somewhere in a non-scoped style-block:
+
+```vue
+<style>
+  /* wrapper element */
+  .vue-expand {
+    ...
+  }
+
+  /* wrapper textarea */
+  .vue-expand textarea {
+    ...
+  }
+</style>
+```
+
 ## License
 
 Copyright (c) 2017 Christoph Biering, Licensed under the [MIT license](./LICENSE).
