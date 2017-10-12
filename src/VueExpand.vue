@@ -1,5 +1,5 @@
 <template>
-  <div class="expanding-textarea">
+  <div class="vue-expand">
     <textarea 
       ref="textarea"
       rows="1"
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'expanding-textarea',
+  name: 'vue-expand',
 
   props: {
     value       : { type: String, default: '' },
@@ -47,7 +47,7 @@ export default {
 </script>
 
 <style scoped>
-.expanding-textarea {
+.vue-expand {
   display: flex;
 }
 
