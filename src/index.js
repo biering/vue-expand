@@ -1,1 +1,2 @@
-export { default as ExpandingText } from './ExpandingText.vue'
+import { default as ExpandingText } from './ExpandingText.vue'
+export default ExpandingText

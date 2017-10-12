@@ -15,7 +15,7 @@ In your vue component:
 ```vue
 <template>
   <div>
-    <expanding-textarea
+    <vue-expand
       v-model="text" 
       :placeholder="A placeholder" 
       :handler="handler" 
@@ -24,13 +24,13 @@ In your vue component:
 </template>
 
 <script>
-import ExpandingTextarea from 'vue-expand'
+import VueExpand from 'vue-expand'
 
 export default {
   name: '..',
 
   components: {
-    ExpandingTextarea
+    VueExpand
   },
 
   data () {
