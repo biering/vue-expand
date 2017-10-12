@@ -90,7 +90,7 @@ var Component = __webpack_require__(5)(
   /* template */
   __webpack_require__(6),
   /* scopeId */
-  "data-v-10789e0a",
+  "data-v-4d852e75",
   /* cssModules */
   null
 )
@@ -109,7 +109,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = {
-  name: 'expanding-textarea',
+  name: 'vue-expand',
 
   props: {
     value: { type: String, default: '' },
@@ -156,16 +156,13 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _ExpandingText = __webpack_require__(0);
+var _VueExpand = __webpack_require__(0);
 
-Object.defineProperty(exports, 'ExpandingText', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_ExpandingText).default;
-  }
-});
+var _VueExpand2 = _interopRequireDefault(_VueExpand);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _VueExpand2.default;
 
 /***/ }),
 /* 3 */
@@ -176,7 +173,7 @@ exports = module.exports = __webpack_require__(4)();
 
 
 // module
-exports.push([module.i, ".expanding-textarea[data-v-10789e0a]{display:flex}textarea[data-v-10789e0a]{outline:none;background:none;border:none;display:block;box-sizing:padding-box;overflow:hidden;resize:none;width:100%}", ""]);
+exports.push([module.i, ".vue-expand[data-v-4d852e75]{display:flex}textarea[data-v-4d852e75]{outline:none;background:none;border:none;display:block;box-sizing:padding-box;overflow:hidden;resize:none;width:100%}", ""]);
 
 // exports
 
@@ -300,7 +297,7 @@ module.exports = function normalizeComponent (
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: "expanding-textarea"
+    staticClass: "vue-expand"
   }, [_c('textarea', {
     ref: "textarea",
     attrs: {
@@ -330,7 +327,7 @@ var content = __webpack_require__(3);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(8)("1f682144", content, true);
+var update = __webpack_require__(8)("78ce1050", content, true);
 
 /***/ }),
 /* 8 */
