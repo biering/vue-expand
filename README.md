@@ -6,11 +6,15 @@
 
 ```bash
 npm install --save vue-expand
+
+# or
+
+yarn add vue-expand
 ```
 
 ## Usage
 
-In your vue component:
+Add this to your vue-component:
 
 ```vue
 <template>
@@ -48,26 +52,29 @@ export default {
 
 |Property|Type|Description|
 |:--:|:--:|:--|
-|`v-model`|`String`|The value bind to the textarea|
-|`min-row`|`Number`|Minimum number of rows which determine the initial textarea height|
-|`placeholder`|`String`|The placeholder of the textarea|
-|`handler`|`Function`|Access event on the textarea|
+|`v-model`|`String`|The value which is bound to the text area|
+|`min-row`|`Number`|Minimum number of rows which results in the initial text area height|
+|`placeholder`|`String`|The placeholder of the text area|
+|`handler`|`Function`|Handler to access vue-expand through events|
 
 ### Handler Events
 
-Use the handler as following:
+You can use the handler in the following way:
 
 ```javascript
-this.handler.$emit(event, [callback])
+this.handler.$emit(event, [args])
+
+// for example
+this.handler.$emit('focus')
 ```
 
-|Name|Description|
-|:--:|:--|
-|`focus`|Focus the textarea|
+|Name|Arguments|Description|
+|:--:|:--:|:--|
+|`focus`||Focus the textarea|
 
 ### Styling
 
-To style the textarea add this class somewhere in a non-scoped style-block:
+To style the textarea add this class somewhere in a **non-scoped** style-block:
 
 ```vue
 <style>
